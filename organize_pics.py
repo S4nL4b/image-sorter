@@ -5,8 +5,8 @@ from PIL.ExifTags import TAGS
 
 
 """
-This short scripts will organize the pics in current directory into year/month directories based on creation date
-The creatin date is pulled from EXIF data
+This short script will organize the pics in current directory into year/month directories based on creation date
+The creation date is pulled from the EXIF data of the image
 """
  
 def get_filenames_from_dir(path):
